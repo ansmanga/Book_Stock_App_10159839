@@ -366,15 +366,6 @@ public class Library implements Stock{
 
     }
 
-    public boolean isBookPresent(int bookId)
-    {
-        if(bookMap.containsKey(bookId))
-        {
-            return true;
-        }
-
-        return false;
-    }
 
     public void removeOldBooks()
     {
@@ -397,21 +388,6 @@ public class Library implements Stock{
             System.out.println(e);
         }
 
-    }
-
-    public void printBooks()
-    {
-        if (bookMap.isEmpty()) {
-            System.out.println("No books available.");
-            return;
-        }
-
-        System.out.println("List of Books:");
-
-        for (Book book : bookMap.values())
-        {
-            System.out.println("Book ID: " + book.getBookID());
-        }
     }
 
 }

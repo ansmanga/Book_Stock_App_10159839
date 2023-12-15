@@ -1,9 +1,6 @@
 package org.example;
 
 public interface Stock {
-
-
-
     public void saveBook();
 
     public void updateBook();
@@ -17,11 +14,6 @@ public interface Stock {
     public void cheapestBook();
 
     public void costliestBook();
-
-    public boolean isBookPresent(int bookId);
-
     public void removeOldBooks();
-
-    public void printBooks();
 
 }
