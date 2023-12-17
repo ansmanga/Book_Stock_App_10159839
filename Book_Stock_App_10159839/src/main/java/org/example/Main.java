@@ -103,6 +103,8 @@ public class Main {
                 }
 
         }
+        System.out.println("Connection closed with the database");
+        mConnection.close();
 
     }
 

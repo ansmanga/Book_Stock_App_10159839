@@ -14,6 +14,7 @@ public interface Stock {
     public void cheapestBook();
 
     public void costliestBook();
+
     public void removeOldBooks();
 
 }
